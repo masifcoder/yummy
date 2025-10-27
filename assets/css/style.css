@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* font-family: "Amatic SC", sans-serif; */
+    color: #37373f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+.btn-pill {
+    background-color: #ce1212;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li a {
+    padding: 0 20px;
+    color: #7f7f90;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.logo span {
+    color: #ce1212;
+    font-size: 32px;
+}
+
+
+#hero {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.hero-parent {
+    display: flex;
+    align-items: center;
+    gap: 50px
+}
+
+.hero-img {
+    width: 70%;
+}
+
+.hero-right {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-left h1 {
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 10px;
+}
+
+.hero-left p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #212529b3;
+}
+
+.video-btn-parent {
+    display: flex;
+    align-items: center;
+}
+.hero-btn {
+    padding: 10px 25px;
+    margin-right: 20px;
+}
+
+.video-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-btn i {
+    color: #ce1212;
+    font-size: 35px;
+}
+
+.video-btn:hover {
+    color: #ce1212;
+}
