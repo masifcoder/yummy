@@ -106,6 +106,7 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 .hero-btn {
     padding: 10px 25px;
     margin-right: 20px;
@@ -125,4 +126,185 @@ h1 {
 
 .video-btn:hover {
     color: #ce1212;
+}
+
+
+/** About Styles ***/
+
+#about {
+    /* border: 1px solid red; */
+    padding: 80px 0;
+}
+
+#about .container {
+    /* border: 1px solid red; */
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading p {
+    text-transform: uppercase;
+    color: #939bac;
+    font-size: 14px;
+}
+
+.section-heading h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.section-heading h3 span {
+    color: #ce1212;
+}
+
+.about-parent {
+    display: flex;
+    gap: 30px;
+}
+
+.about-left {
+    flex: 2;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.about-left img,
+.about-right img {
+    width: 100%;
+}
+
+.about-contact {
+    text-align: center;
+    border: 4px solid rgba(0, 0, 0, 0.481);
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+.about-contact h4,
+.about-contact h5 {
+    font-size: 26px;
+}
+
+.about-contact h5 {
+    color: #ce1212;
+    margin-top: 10px;
+}
+
+.about-list {
+    margin-bottom: 20px;
+}
+
+.right-p1 {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.about-list li {
+    margin-bottom: 15px;
+}
+
+.about-list li i {
+    color: #ce1212;
+    font-size: 20px;
+}
+
+.right-img {
+    margin-top: 25px;
+}
+
+
+/** why choose styles **/
+#whychoose {
+    padding: 80px 0;
+    background-color: #f2f2f2;
+}
+
+.why-parent {
+    display: flex;
+    gap: 20px;
+}
+
+.red-card {
+    padding: 30px;
+    color: white;
+    background-color: #ce1212;
+    flex: 2;
+}
+
+.red-card h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.red-card p {
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.red-card a {
+    display: block;
+    background-color: #d53535;
+    color: white;
+    padding: 10px 30px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 30px;
+    transition: all .5s ease;
+}
+
+.red-card a:hover {
+    background-color: white;
+    color: #ce1212;
+}
+
+.why-card {
+    padding: 40px 30px;
+    background-color: white;
+    text-align: center;
+    flex: 1;
+}
+
+.why-ico {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 0;
+    background-color: #fcf3f3;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+.why-ico i {
+    color: #ce1212;
+}
+
+.why-card h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.why-card p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.why-card:hover {
+    cursor: pointer;
+}
+
+.why-card:hover .why-ico {
+    background-color: #ce1212;
+}
+.why-card:hover .why-ico i {
+    color: white;
 }
