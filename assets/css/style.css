@@ -305,6 +305,93 @@ h1 {
 .why-card:hover .why-ico {
     background-color: #ce1212;
 }
+
 .why-card:hover .why-ico i {
     color: white;
+}
+
+
+/** Stats styles **/
+#stats {
+    background-image: url("../images/stats-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.stats-parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-card {
+    text-align: center;
+    color: white;
+}
+
+.stat-card h4 {
+    font-size: 42px;
+}
+
+.stat-card p {
+    font-size: 15px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 130px 0;
+}
+
+
+/** menu styles start **/
+#menu {
+    padding: 80px 0;
+}
+
+
+.menu-cats {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 30px;
+}
+
+.menu-cats li a {
+    color: gray;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #7f7f90;
+}
+
+.menu-cats li a:hover,
+.menu-cats li a.active {
+    border-bottom: 2px solid #ce1212;
+}
+
+.menu-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-card {
+    width: 378px;
+    padding: 20px;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 80%;
+}
+.menu-card h4 {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: normal;
+}
+.menu-card p {
+    margin-bottom: 15px;
+}
+.menu-card h5 {
+    font-size: 1.5rem;
+    color: #ce1212;
 }
