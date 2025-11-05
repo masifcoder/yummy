@@ -40,7 +40,11 @@ h1 {
     font-family: "Amatic SC", sans-serif;
 }
 
-
+#header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+}
 
 
 .nav-flex {
@@ -134,10 +138,6 @@ h1 {
 #about {
     /* border: 1px solid red; */
     padding: 80px 0;
-}
-
-#about .container {
-    /* border: 1px solid red; */
 }
 
 .section-heading {
@@ -511,4 +511,109 @@ h1 {
     padding-bottom: 5px;
     display: inline-block;
     margin-bottom: 10px;
+}
+
+.sroll-top {
+    width: 40px;
+    height: 40px;
+    background-color: #ce1212;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+/** chefs styles */
+
+#chefs {
+    padding: 80px 0;
+}
+
+.chefs-p {
+    display: flex;
+    gap: 20px;
+}
+
+.chefs-p .chef {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #00000029;
+    transition: all .4s ease;
+    position: relative;
+}
+
+.chefs-p .chef:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.chefs-p .chef img {
+    width: 100%;
+}
+
+.chef-desc {
+    padding: 25px 15px;
+}
+
+.chef-desc h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.chef-desc .chef-cat {
+    margin-bottom: 15px;
+}
+
+.chef-details {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+.socials {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    background: #ffffff94;
+    border-radius: 6px;
+    transform: translateX(50px);
+    transition: all .5s ease-out;
+}
+.chef:hover .socials {
+    transform: translateX(-10px);
+}
+
+.socials>a {
+    display: block;
+    color: #0000005b;
+    padding: 5px;
+    font-size: 18px;
+}
+.socials>a:hover {
+    color: black;
+}
+.chef-images {
+    position: relative;
+}
+.chef .curv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: invert(1);
+}
+.chef-img {
+    filter: grayscale(1);
+    transition: all .6s ease;
+}
+.chef:hover .chef-img {
+    filter: none;
 }
