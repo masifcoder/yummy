@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --red-color: #ce1212;
+    --gray-color: #7f7f90;
+}
+
 a,
 span {
     display: inline-block;
@@ -29,7 +34,7 @@ body {
 }
 
 .btn-pill {
-    background-color: #ce1212;
+    background-color: var(--red-color);
     color: white;
     border-radius: 30px;
     font-size: 14px;
@@ -69,7 +74,7 @@ h1 {
 }
 
 .logo span {
-    color: #ce1212;
+    color: var(--red-color);
     font-size: 32px;
 }
 
@@ -87,6 +92,10 @@ h1 {
 
 .hero-img {
     width: 70%;
+    animation-name: bouncing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .hero-right {
@@ -124,12 +133,12 @@ h1 {
 }
 
 .video-btn i {
-    color: #ce1212;
+    color: var(--red-color);
     font-size: 35px;
 }
 
 .video-btn:hover {
-    color: #ce1212;
+    color: var(--red-color);
 }
 
 
@@ -158,7 +167,7 @@ h1 {
 }
 
 .section-heading h3 span {
-    color: #ce1212;
+    color: var(--red-color);
 }
 
 .about-parent {
@@ -210,7 +219,7 @@ h1 {
 }
 
 .about-list li i {
-    color: #ce1212;
+    color: var(--red-color);
     font-size: 20px;
 }
 
@@ -233,7 +242,7 @@ h1 {
 .red-card {
     padding: 30px;
     color: white;
-    background-color: #ce1212;
+    background-color: var(--red-color);
     flex: 2;
 }
 
@@ -260,7 +269,7 @@ h1 {
 
 .red-card a:hover {
     background-color: white;
-    color: #ce1212;
+    color: var(--red-color);
 }
 
 .why-card {
@@ -285,7 +294,7 @@ h1 {
 }
 
 .why-ico i {
-    color: #ce1212;
+    color: var(--red-color);
 }
 
 .why-card h4 {
@@ -303,7 +312,7 @@ h1 {
 }
 
 .why-card:hover .why-ico {
-    background-color: #ce1212;
+    background-color: var(--red-color);
 }
 
 .why-card:hover .why-ico i {
@@ -363,7 +372,7 @@ h1 {
 
 .menu-cats li a:hover,
 .menu-cats li a.active {
-    border-bottom: 2px solid #ce1212;
+    border-bottom: 2px solid var(--red-color);
 }
 
 .menu-parent {
@@ -396,7 +405,7 @@ h1 {
 
 .menu-card h5 {
     font-size: 1.5rem;
-    color: #ce1212;
+    color: var(--red-color);
 }
 
 /** testimonials styles */
@@ -413,7 +422,7 @@ h1 {
 }
 
 .tes-content {
-    border-left: 4px solid #ce1212;
+    border-left: 4px solid var(--red-color);
     padding-left: 20px;
 }
 
@@ -507,7 +516,7 @@ h1 {
 
 .event-price {
     font-size: 30px;
-    border-bottom: 3px solid #ce1212;
+    border-bottom: 3px solid var(--red-color);
     padding-bottom: 5px;
     display: inline-block;
     margin-bottom: 10px;
@@ -516,7 +525,7 @@ h1 {
 .sroll-top {
     width: 40px;
     height: 40px;
-    background-color: #ce1212;
+    background-color: var(--red-color);
     color: white;
     border-radius: 100%;
     display: flex;
@@ -616,4 +625,13 @@ h1 {
 }
 .chef:hover .chef-img {
     filter: none;
+}
+
+@keyframes bouncing {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(10px);
+    }
 }

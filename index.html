@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yummy</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -59,20 +60,20 @@
 
         <section id="about">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading" data-aos="fade-up">
                     <p>about us</p>
                     <h3>Learn More <span>About Us</span></h3>
                 </div>
 
                 <div class="about-parent">
-                    <div class="about-left">
+                    <div class="about-left" data-aos="fade-up" data-aos-duration="5000" data-aos-offset="500">
                         <img src="./assets/images/about.jpg">
                         <div class="about-contact">
                             <h4>Book a Table</h4>
                             <h5>+1 5589 55488 55</h5>
                         </div>
                     </div>
-                    <div class="about-right">
+                    <div class="about-right" data-aos="fade-up" data-aos-duration="5000">
                         <p class="right-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ul class="about-list">
@@ -188,20 +189,20 @@
 
 
                 <div class="menu-parent">
-                    <div class="menu-card">
+                    <div class="menu-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <img src="./assets/images/menu-item-1.png">
                         <h4>Magnam Tiste</h4>
                         <p>Lorem, deren, trataro, filede, nerada</p>
                         <h5>$5.6</h5>
                     </div>
-                    <div class="menu-card">
+                    <div class="menu-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <img src="./assets/images/menu-item-2.png">
                         <h4>Aut Luia
                         </h4>
                         <p>Lorem, deren, trataro, filede, nerada</p>
                         <h5>$7.6</h5>
                     </div>
-                    <div class="menu-card">
+                    <div class="menu-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                         <img src="./assets/images/menu-item-3.png">
                         <h4>Est Eligendi</h4>
                         <p>Lorem, deren, trataro, filede, nerada</p>
@@ -319,7 +320,8 @@
                         <div class="chef-desc">
                             <h4>Walter White</h4>
                             <p class="chef-cat">Master Chef</p>
-                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum
                                 exercitationem iure minima enim corporis et voluptate.</p>
                         </div>
                         <div class="socials">
@@ -330,14 +332,15 @@
                         </div>
                     </div>
                     <div class="chef">
-                         <div class="chef-images">
+                        <div class="chef-images">
                             <img class="chef-img" src="./assets/images/chefs-2.jpg">
                             <img class="curv" src="./assets/images/team-shape.png">
                         </div>
                         <div class="chef-desc">
                             <h4>Sarah Jhonson</h4>
                             <p class="chef-cat">Patissier</p>
-                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum
                                 exercitationem iure minima enim corporis et voluptate.</p>
                         </div>
                         <div class="socials">
@@ -348,14 +351,15 @@
                         </div>
                     </div>
                     <div class="chef">
-                         <div class="chef-images">
+                        <div class="chef-images">
                             <img class="chef-img" src="./assets/images/chefs-3.jpg">
                             <img class="curv" src="./assets/images/team-shape.png">
                         </div>
                         <div class="chef-desc">
                             <h4>William Anderson</h4>
                             <p class="chef-cat">Cook</p>
-                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            <p class="chef-details">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum
                                 exercitationem iure minima enim corporis et voluptate.</p>
                         </div>
                         <div class="socials">
@@ -376,6 +380,11 @@
     <div class="sroll-top">
         <i class="ri-arrow-up-long-fill"></i>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
