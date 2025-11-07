@@ -10,7 +10,9 @@
     --red-color: #ce1212;
     --gray-color: #7f7f90;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 a,
 span {
     display: inline-block;
@@ -61,11 +63,26 @@ h1 {
 
 .main-menu {
     display: flex;
+    gap: 20px;
 }
 
 .main-menu li a {
-    padding: 0 20px;
+    /* padding: 0 20px; */
     color: #7f7f90;
+    position: relative;
+}
+.main-menu li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--red-color);
+    left: 0;
+    bottom: -5px;
+    transition: all .5s ease;
+}
+.main-menu li a:hover::after {
+    width: 100%;
 }
 
 .logo {
