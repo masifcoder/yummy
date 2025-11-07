@@ -561,12 +561,12 @@ h1 {
 }
 
 .chefs-p {
-    display: flex;
-    gap: 20px;
+    /* display: flex;
+    gap: 20px; */
 }
 
 .chefs-p .chef {
-    flex: 1;
+    /* flex: 1; */
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
